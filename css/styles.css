@@ -17,8 +17,22 @@ main {
   
     grid-column: 1 / 1;
   }
-  main p{
-    font-size:98px;
+  p{
+    font-size:38px;
+  }
+  .myNavbar{
+    background-color:black;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+  }
+  .nav{
+      background-color: black;
+      font-weight: bold;
+      text-align: center;
+      color: white;
   }
   
   
