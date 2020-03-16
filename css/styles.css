@@ -12,6 +12,9 @@ main {
     display: grid;
     grid-template-columns: 1fr;
   }
+  blockquote{
+    font-size:40px;
+  }
   
   main img {
   
@@ -28,11 +31,28 @@ main {
     z-index: 1000;
     width: 100%;
   }
+  #portfolio
+  {
+    background-color: cyan;
+    text-align: center;
+    color:white;
+    margin:0px 0 20px 0;
+    padding: 50px;
+
+  }
   .nav{
-      background-color: black;
+      background-color:white;
       font-weight: bold;
       text-align: center;
       color: white;
+  }
+  img{
+    margin-left :auto;
+    margin-right:auto;
+    margin-bottom:2em;
+  }
+  body{
+    padding-bottom:70px;
   }
   
   
