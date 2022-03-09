@@ -11,7 +11,175 @@ main {
       
     display: grid;
     grid-template-columns: 1fr;
+    
   }
+  .name{
+    color:black;
+    font-size:35px;
+    letter-spacing: 1px;
+    cursor:pointer;
+  }
+  span{
+    color:red;
+  }
+  
+  .mynav{
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  nav{
+      display: flex;
+      font-size: 20px;
+      align-items: center;
+      justify-content:space-between;
+      padding-top:45px;
+      padding-left:8%;
+      padding-right: 8%;
+      background-image:url(../img/whiteback.jpg);
+  }
+  nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px  25px;
+    }
+  nav ul li a{
+    color:black;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  nav ul li a:hover{
+    color:red;
+    transition: .5s;
+  }
+
+
+  .content{
+    position:absolute;
+    top: 50%;
+    left:8%;
+    transform: translateY(-50%);
+  }
+
+  h1{
+    color:black;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+  }
+  h3{
+    color:black;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+  h4{
+    color:black;
+    letter-spacing: 2px;
+    font-size: 20px;
+  }
+.about{
+  width:100%;
+  padding :100px;
+  background-color: white;
+}
+.about img{
+  height:auto;
+  width:430px;
+}
+.about-text{
+  width:550px;
+}
+.about-text h2{
+  font-size:75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  width:550px;
+}
+.about-text h5{
+  font-size:22px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+.about-text p{
+  font-size:18px;
+  text-transform: capitalize;
+  margin-bottom: 45px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.info{
+  width:1120px;
+  max-width:95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.project{
+  background: black;
+  width: 100%;
+  padding: 100px 0px;
+}
+.title h2{
+  color:white;
+  font-size:75px;
+  width:1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box{
+  display:flex;
+  justify-content:content;
+  align-items: center;
+  min-height: 400px;
+}
+.card{ 
+  height:365px;
+  width:335px;
+  padding:20px 35px;
+  background :white;
+  border-radius: 20px;
+  margin: 15px;
+  position:relative;
+  overflow:hidden;
+  text-align: center;
+}
+
+.card i{
+  font-size:50px;
+  display:block;
+  text-align: center;
+  margin: 25px 0px;
+  color: white;
+}
+h5{
+  color:white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.des p{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Inside portfolio box   */
   blockquote{
     font-size:40px;
   }
@@ -24,28 +192,26 @@ main {
     font-size:38px;
   }
   .myNavbar{
-    background-color:black;
+    background-color:white;
     font-weight: bold;
     color: white;
     position: fixed;
     z-index: 1000;
+    height: 100vh;
     width: 100%;
   }
   #portfolio
   {
-    background-color: cyan;
+    background-color: tan;
     text-align: center;
     color:white;
     margin:0px 0 20px 0;
     padding: 50px;
+    
 
   }
-  .nav{
-      background-color:white;
-      font-weight: bold;
-      text-align: center;
-      color: white;
-  }
+
+  
   img{
     margin-left :auto;
     margin-right:auto;
@@ -53,8 +219,19 @@ main {
   }
   body{
     padding-bottom:70px;
+    background-image:url(../img/whiteback.jpg)
+
   }
   
+
+
+
+
+
+
+
+
+
   
   /* Mobile 
     0 to 26em (416 pixels)
@@ -63,7 +240,7 @@ main {
       
     /* Diagnostic Styling. Delete When Done. */
     body:before {
-         background: yellow;
+         background: cyan;
          content: "Mobile Size";
     }
     
@@ -76,7 +253,7 @@ main {
       
     /* Diagnostic Styling. Delete When Done. */
     body:before {
-         background: yellow;
+         background: cyan;
          content: "Tablet Size";
     }
   
@@ -89,7 +266,7 @@ main {
     
     /* Diagnostic Styling. Delete When Done. */
     body:before {
-         background: yellow;
+         background: cyan;
          content: "Desktop Size";
     }
   
@@ -102,7 +279,7 @@ main {
     
     /* Diagnostic Styling. Delete When Done. */
     body:before {
-         background: yellow;
+         background: cyan;
          content: "Wide Desktop Size";
     }
   
